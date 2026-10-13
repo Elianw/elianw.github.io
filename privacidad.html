@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Privacidad — Backup Drives</title>
+</head>
+<body>
+  <main>
+    <h1>Política de privacidad de Backup Drives</h1>
+    <p>Última actualización: 12 de octubre de 2026.</p>
+
+    <h2>Uso personal y datos accedidos</h2>
+    <p>Backup Drives es una herramienta personal del propietario
+    para copiar archivos entre sus cuentas autorizadas de Google Drive.
+    Accede al contenido, nombres, carpetas y metadatos necesarios
+    para comparar y copiar archivos.</p>
+
+    <h2>Permisos y finalidad</h2>
+    <p>Utiliza acceso de solo lectura en el origen y acceso de escritura
+    en el destino. Aunque el permiso de Google puede abarcar toda la
+    cuenta de destino, las operaciones se limitan mediante configuración
+    a la carpeta elegida. La finalidad es mantener una copia actual
+    y un historial recuperable.</p>
+
+    <h2>Procesamiento y almacenamiento</h2>
+    <p>rclone realiza las operaciones. Durante la configuración se ejecuta
+    en la computadora del propietario; la automatización prevista
+    utilizará servidores temporales de GitHub Actions.
+    Cuando no hay copia interna de Google, los archivos pasan por
+    la máquina que ejecuta rclone. Las copias se almacenan en Drive
+    de destino. Los registros pueden incluir nombres de archivos
+    y datos operativos.</p>
+
+    <h2>Credenciales</h2>
+    <p>Las credenciales no se publican en este sitio ni en el código.
+    Para la automatización se prevé guardar la configuración cifrada
+    de rclone y su contraseña en secretos separados de un repositorio
+    privado de GitHub.</p>
+
+    <h2>Retención y eliminación</h2>
+    <p>La automatización prevista conservará los archivos reemplazados
+    y eliminados durante al menos 30 días desde la finalización exitosa
+    de la ejecución que los archivó. La limpieza podrá demorarse ante
+    fallos. El historial vencido se enviará a la papelera de Drive,
+    sujeto a las reglas de Google o a su eliminación manual.
+    Actualmente la limpieza automática no está activada.</p>
+
+    <h2>Uso de los datos</h2>
+    <p>El propietario utiliza los datos exclusivamente para el backup.
+    No los vende ni los utiliza para publicidad o entrenamiento
+    de inteligencia artificial. Google y, cuando se active la
+    automatización, GitHub intervienen como proveedores técnicos.</p>
+
+    <h2>Revocación</h2>
+    <p>El propietario puede retirar el acceso desde las conexiones de
+    su cuenta Google y desactivar la automatización en GitHub.
+    Retirar los permisos no elimina las copias ya almacenadas,
+    que deben borrarse por separado.</p>
+
+    <p><a href="index.html">Volver a Backup Drives</a></p>
+  </main>
+</body>
+</html>
